@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
     
-    <div className='page1'>
+    <div className='w-full overflow-hidden'>
       <ToastContainer/>
       <Header/>
       <About/>

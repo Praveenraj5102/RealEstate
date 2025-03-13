@@ -32,7 +32,8 @@
     color: gray;
 }
 .nav-container button{
-    background-color: white;
+    
     padding: 8px 32px;
-    border-radius: 30px
+    border-radius: 30px;
+   
 }

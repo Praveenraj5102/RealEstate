@@ -13,7 +13,7 @@ const Header = () => {
       initial={{opacity:0,y:100}}
       transition={{duration:1.5}}
       whileInView={{opacity:1,y:0}}
-      viewport={{once:true}}
+      viewport={{infinity:true}}
       className="welcome  ">
         <h2 className="header">Explore homes that fit your dreams</h2>
         <div className="space-x-6 mt-16">

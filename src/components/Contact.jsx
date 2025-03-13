@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+
 import { toast } from "react-toastify";
 import { motion } from "motion/react"
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
     initial={{opacity:0,x:200}}
     transition={{duration:1}}
     whileInView={{opacity:1,x:0}}
-    viewport={{once:true}}
+    viewport={{infinity:true}}
     className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden" id="Contact">
       <h1 className="text-2xl sm:text-4xl font-bold mb-2">
         Contact <span className="underline underline-offset-4 decoration-1 under font-light">With Us</span>

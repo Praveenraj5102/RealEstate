@@ -17,9 +17,9 @@ const Projects = () => {
   return (
     <motion.div className="projects" id="Projects"
     initial={{opacity:0,x:200}}
-      transition={{duration:1}}
+      transition={{duration:1.5}}
       whileInView={{opacity:1,x:0}}
-      viewport={{once:true}}>
+      viewport={{infinity:true}}>
       <h1 className="project-h1 ">
         Projects <span>Completed</span>
       </h1>

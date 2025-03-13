@@ -8,7 +8,7 @@ const Testimonial = () => {
     initial={{opacity:0,x:-200}}
     transition={{duration:1}}
     whileInView={{opacity:1,x:0}}
-    viewport={{once:true}}
+    viewport={{infinity:true}}
     className="testimonial" id="Testimonials">
       <div>
         <h1 className="testimonial-h1">
