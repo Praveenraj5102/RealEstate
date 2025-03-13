@@ -1,14 +1,5 @@
 .container-img{
-    height: 100vh;
-    margin-bottom: 16px;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    overflow: hidden;
-    background-image: url("../assets/header_image.jpg") ;
-    
+    background-image: url("../assets/header_image.jpg");
 }
 .welcome{
     text-align: center;
