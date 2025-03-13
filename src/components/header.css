@@ -1,0 +1,28 @@
+.container-img{
+    height: 100vh;
+    margin-bottom: 16px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("../assets/header_image.jpg") ;
+    
+}
+.welcome{
+    text-align: center;
+    margin: auto;
+    padding: 5rem 8rem;
+    color: white;
+      
+}
+
+.header{
+    font-size: 5rem;
+    line-height: 1; 
+    display: inline-block;
+    max-width:48rem ;
+    padding-top: 5rem;
+    font-weight: 600;
+}
